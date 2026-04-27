@@ -1,0 +1,89 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+
+   body {
+
+  background-image: url('https://picsum.photos/1920/1080');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh ;
+
+
+}
+
+.container{
+  padding: 20px;
+  background-color:floralwhite;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.botoes{
+  margin: 30px 0;
+  padding:10px;
+  font-size: 60px;
+  cursor: pointer;
+  border-radius:10px ;
+  background-color: rgb(250, 175, 12);
+  border-radius: 20px;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  gap: 40px;
+}
+#azul{
+
+  background-color: blue;
+  border-radius: 20px;
+}
+
+#azul:hover {
+  background-color: bisque;
+}
+#amarelo{
+
+  background-color: rgb(219, 243, 5);
+  border-radius: 20px;
+}
+#amarelo:hover {
+    background-color: bisque;
+}
+#vermelho{
+
+  background-color: rgb(248, 6, 6);
+  border-radius: 20px;
+}
+#vermelho:hover {
+  background-color: bisque;
+}
+
+
+ h1{
+  padding-bottom: 10px;
+
+ }
+ p{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+ }
+
+ .yor-score span{
+
+  color: rgb(58, 58, 145);
+ }
+
+ .machine-score span{
+
+  color: rgb(253, 64, 6);
+ }
+
