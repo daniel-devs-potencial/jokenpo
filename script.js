@@ -7,7 +7,7 @@
 
  const GAME_OPTTIONS = {
 
-    azul: 'azul',
+   AZUL: 'azul',
     VERMELHO: 'vermelho',
     AMARELO: 'amarelo'
  }
